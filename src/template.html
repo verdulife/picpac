@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang='en'>
+
+<head>
+	<meta charset='utf-8'>
+	<!-- Mobile -->
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="theme-color" content="#383838">
+	<link rel="apple-touch-icon" type="image/png" href="./assets/img/mobile.png">
+
+	%sapper.base%
+
+	<!-- Web assets -->
+	<link rel='stylesheet' href='fonts/circular.css'>
+	<link rel='stylesheet' href='fonts/operator.css'>
+	<link rel='manifest' href='manifest.json' crossorigin='use-credentials'>
+	<link rel="icon"
+		href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+
+	%sapper.styles%
+
+	%sapper.head%
+
+	<meta name="keywords" content="pwa, webapp, spa, app, html, css, js, svelte, scss, sapper, rollup, ssr" />
+	<meta property="og:type" content="website" />
+
+	<!-- Ownership -->
+	<meta name="author" content="verdu" />
+	<meta name="reply-to" content="verdu@live.com" />
+	<meta name="copyright" content="verdu" />
+</head>
+
+<body>
+	<div id='sapper'>%sapper.html%</div>
+
+	%sapper.scripts%
+</body>
+
+</html>
